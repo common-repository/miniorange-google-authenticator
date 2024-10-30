@@ -1,0 +1,270 @@
+.mo_gauth_display_none_forms {
+    display: none
+}
+
+.mo_gauth_table_layout {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 0px 24px 0px 20px;
+    min-height: 373px;
+}
+
+.mo_gauth_table_layout td strong {
+    margin-left: 10px;
+}
+
+
+.mo_gauth_google_authy_secret_outer_div {
+    padding: 10px;
+    background-color: #f9edbe;
+    width: 20em;
+    text-align: center;
+}
+
+mo_gauth_google_authy_secret_inner_div {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.mo_gauth_table_textbox {
+    width: 100%;
+    height: 30px;
+}
+
+.mo_gauth_faqs > h3, .mo_gauth_faqs > div {
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+
+}
+
+.mo_gauth_faqs > div {
+    padding: 5px 20px !important;
+    border-left: 2px solid grey;
+}
+
+.mo_gauth_faqs > hr {
+    border-top: 1px solid rgb(135, 129, 129) !important;
+    margin-right: 20px !important;
+}
+
+.mo_gauth_faqs > h3 > a:focus {
+    box-shadow: 0px 0px 0px 0px #fff !important;
+}
+
+.mo_gauth_settings_table {
+    width: 100%;
+}
+
+
+.mo_gauth_support_layout {
+    width: 93%;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 0px 24px 0px 20px;
+}
+
+.mo_gauth_settings_table tr td:first-child {
+    width: 30%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.mo2f_gauth_column {
+    float: left;
+    padding: 10px;
+    height: 265px;
+}
+
+.mo2f_gauth_left {
+    width: 100%;
+}
+
+.mo2f_gauth_right {
+    width: 0%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: green;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.gauth_tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.gauth_tooltip .gauth_tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #f1f1f1;
+    color: #000;
+
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 1;
+    top: -70%;
+    left: 155%;
+}
+
+.gauth_tooltip:hover .gauth_tooltiptext {
+    visibility: visible;
+}
+
+.gauth_tooltip .gauth_tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+
+    border-color: transparent black transparent transparent;
+}
+
+.mo2f_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 100px;
+    top: 0;
+    margin-left: 220px;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+.mo2f_modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%;
+}
+
+.mo2f_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.mo2f_close:hover,
+.mo2f_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1
+}
+
+/*pricing css*/
+.gauth_licensing_plans {
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.gau_table-bordered, .gau_table-bordered > tbody > tr > td {
+    border: 1px solid #ddd;
+}
+
+.gau_table-bordered > thead > tr > th {
+    vertical-align: top !important;
+}
+
+.gauth_licensing_plans_tr {
+    background-color: #bbccdd;
+}
+
+.gauth_licensing_plans_plan_desc {
+    color: white;
+    font-size: 16px
+}
+
+.gauth_pricing_sub_header {
+    margin: 4px !important;
+    color: #fff !important;
+}
+
+.gau_align-center > tr > td {
+    text-align: center !important;
+}
+
+.gauth_licensing_plans_ol {
+    margin-left: 3%
+}
